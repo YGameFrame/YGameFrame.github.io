@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% include header.html %}
+</head>
+
+<body>
+{% include navbar.html %}
+
+<div id="page" class="row">
+
+    <p>
+    <img src="{{site.url}}/images/logo.png" alt="exVim Logo" style="
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    ">
+    </p>
+
+    <div class="medium-9 medium-centered columns content">
+        {{ content }}
+    </div>
+</div>
+
+{% include footer.html %}
+</body>
+
+</html>

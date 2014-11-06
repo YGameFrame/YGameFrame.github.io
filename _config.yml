@@ -1,0 +1,38 @@
+# Site settings
+
+# Dependencies
+markdown   :        kramdown
+highlighter:        pygments
+version    :        v1.0
+
+# setup
+title:              YGameFrame.org
+email:              #your-email@domain.com
+description:        'powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>'
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://YGameFrame.github.io 
+
+twitter_username: #
+github_orgnization: YGameFrame 
+
+# Navigation
+navigation:
+- text: Home
+  url: /
+  layout: index
+- text: Downloads
+  url: /downloads/
+  layout: downloads
+- text: Docs
+  url: /docs/
+  layout: docs
+- text: Demo 
+  url: https://github.com/AndJoyGamer/AndJoy 
+- text: Changelog
+  url: https://github.com/YGameFrame/YGameFrame3/releases
+- text: About
+  url: /about/
+  layout: index
