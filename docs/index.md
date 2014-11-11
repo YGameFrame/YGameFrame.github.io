@@ -15,7 +15,8 @@ title: Docs
 
 ## Developer Manual
 
-- [fork me]
+- [fork me](https://github.com/YGameFrame/YGameFrame3)
 - [Build Your Distribution](build-your-distribution)
+- [API](./API/index.html)
 
 ## How to edit this Wiki?

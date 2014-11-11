@@ -1,0 +1,1511 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>YGameFrame: ygame.math.YMatrix类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">YGameFrame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>包</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceygame.html">ygame</a></li><li class="navelem"><a class="el" href="namespaceygame_1_1math.html">math</a></li><li class="navelem"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="classygame_1_1math_1_1YMatrix-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">ygame.math.YMatrix类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a4a3971d31451f03f6f1a4c3c54b7ef5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a4a3971d31451f03f6f1a4c3c54b7ef5e">YMatrix</a> ()</td></tr>
+<tr class="separator:a4a3971d31451f03f6f1a4c3c54b7ef5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48698d6ed93eabc3c225865ee170fae7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a48698d6ed93eabc3c225865ee170fae7">setData</a> (float[] f_arrData)</td></tr>
+<tr class="separator:a48698d6ed93eabc3c225865ee170fae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72c8b704a275c311fa72b371110a0a4f"><td class="memItemLeft" align="right" valign="top">float[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a72c8b704a275c311fa72b371110a0a4f">toFloatValues</a> ()</td></tr>
+<tr class="separator:a72c8b704a275c311fa72b371110a0a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf76b998f5d3079deb6b4990804cae70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#adf76b998f5d3079deb6b4990804cae70">setAll</a> (<a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrix)</td></tr>
+<tr class="separator:adf76b998f5d3079deb6b4990804cae70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa573d4ffc5f15f50412cb27ed125dd1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#aa573d4ffc5f15f50412cb27ed125dd1a">transpose</a> ()</td></tr>
+<tr class="separator:aa573d4ffc5f15f50412cb27ed125dd1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa36a2d3c3eb6d680878aee1c4da8ba1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#aaa36a2d3c3eb6d680878aee1c4da8ba1">invert</a> ()</td></tr>
+<tr class="separator:aaa36a2d3c3eb6d680878aee1c4da8ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad81aa6891e06a2564c695c06c04300eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#ad81aa6891e06a2564c695c06c04300eb">ortho</a> (float left, float right, float bottom, float top, float near, float far)</td></tr>
+<tr class="separator:ad81aa6891e06a2564c695c06c04300eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1883084c769a7bc01917cca6349a7319"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a1883084c769a7bc01917cca6349a7319">frustum</a> (float left, float right, float bottom, float top, float near, float far)</td></tr>
+<tr class="separator:a1883084c769a7bc01917cca6349a7319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd2dbd570cf8cc1a3e06f5cd2729ebdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#abd2dbd570cf8cc1a3e06f5cd2729ebdd">perspective</a> (float fovy, float aspect, float zNear, float zFar)</td></tr>
+<tr class="separator:abd2dbd570cf8cc1a3e06f5cd2729ebdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d6b65a7c74dbac4fc5316cf4080a90a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a9d6b65a7c74dbac4fc5316cf4080a90a">identity</a> ()</td></tr>
+<tr class="separator:a9d6b65a7c74dbac4fc5316cf4080a90a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21e7783e371ae0908d50da2edc3a1b81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a21e7783e371ae0908d50da2edc3a1b81">scale</a> (float x, float y, float z)</td></tr>
+<tr class="separator:a21e7783e371ae0908d50da2edc3a1b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78980d4f402233a08ea7fbfb7ca519fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a78980d4f402233a08ea7fbfb7ca519fd">translate</a> (float x, float y, float z)</td></tr>
+<tr class="separator:a78980d4f402233a08ea7fbfb7ca519fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad99a704f5f1a9bb6f996902caa3c55e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#ad99a704f5f1a9bb6f996902caa3c55e3">rotate</a> (float a, float x, float y, float z)</td></tr>
+<tr class="separator:ad99a704f5f1a9bb6f996902caa3c55e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acea7c4b1adf8fb41fd0fd4f3e632d151"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#acea7c4b1adf8fb41fd0fd4f3e632d151">setRotateEulerM</a> (float x, float y, float z)</td></tr>
+<tr class="separator:acea7c4b1adf8fb41fd0fd4f3e632d151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2df24fdfb123c3b77e9a740e8fe091f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#ad2df24fdfb123c3b77e9a740e8fe091f">setLookAtM</a> (float eyeX, float eyeY, float eyeZ, float targetX, float targetY, float targetZ, float upX, float upY, float upZ)</td></tr>
+<tr class="separator:ad2df24fdfb123c3b77e9a740e8fe091f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15211c2b99380669cf381a4ace568647"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a15211c2b99380669cf381a4ace568647">toString</a> ()</td></tr>
+<tr class="separator:a15211c2b99380669cf381a4ace568647"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a5a951c040aca180091aceb9b018046ce"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a5a951c040aca180091aceb9b018046ce">multiplyMM</a> (<a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrixRes, <a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrixLeft, <a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrixRight)</td></tr>
+<tr class="separator:a5a951c040aca180091aceb9b018046ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accfa36d8667b54eebef084dfb7e40e09"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#accfa36d8667b54eebef084dfb7e40e09">transposeM</a> (<a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrixRes, <a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrix)</td></tr>
+<tr class="separator:accfa36d8667b54eebef084dfb7e40e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ce91163e41aa0260689278302a8afb1"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a5ce91163e41aa0260689278302a8afb1">invertM</a> (<a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrixRes, <a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrix)</td></tr>
+<tr class="separator:a5ce91163e41aa0260689278302a8afb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc20ced3d6f94fbe2f6cb84b2cdc498f"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#adc20ced3d6f94fbe2f6cb84b2cdc498f">length</a> (float x, float y, float z)</td></tr>
+<tr class="separator:adc20ced3d6f94fbe2f6cb84b2cdc498f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8907613c90d146fd498f9950d383749f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a8907613c90d146fd498f9950d383749f">scaleM</a> (<a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrixRes, <a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrix, float x, float y, float z)</td></tr>
+<tr class="separator:a8907613c90d146fd498f9950d383749f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5852a31870ddaab8adeed2723948db1c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a5852a31870ddaab8adeed2723948db1c">translateM</a> (<a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrixRes, <a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrix, float x, float y, float z)</td></tr>
+<tr class="separator:a5852a31870ddaab8adeed2723948db1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7720bc101b5189b2dae393a614d4cf4d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a7720bc101b5189b2dae393a614d4cf4d">rotateM</a> (<a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrixRes, <a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrix, float a, float x, float y, float z)</td></tr>
+<tr class="separator:a7720bc101b5189b2dae393a614d4cf4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bfb9e1f78b375592be4ece1858b97b2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a8bfb9e1f78b375592be4ece1858b97b2">setRotateM</a> (<a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrixRes, float a, float x, float y, float z)</td></tr>
+<tr class="separator:a8bfb9e1f78b375592be4ece1858b97b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a052a741479d13d96a3eb7a0e641f3aeb"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a052a741479d13d96a3eb7a0e641f3aeb">M00</a> = 0</td></tr>
+<tr class="separator:a052a741479d13d96a3eb7a0e641f3aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93171f787957703f5b1435f1bf7821bc"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a93171f787957703f5b1435f1bf7821bc">M01</a> = 4</td></tr>
+<tr class="separator:a93171f787957703f5b1435f1bf7821bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8d66dead6b4b1eae620e20a16ecc708"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#ab8d66dead6b4b1eae620e20a16ecc708">M02</a> = 8</td></tr>
+<tr class="separator:ab8d66dead6b4b1eae620e20a16ecc708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b32c6dc86edeff3f2a98e9a149156ee"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a7b32c6dc86edeff3f2a98e9a149156ee">M03</a> = 12</td></tr>
+<tr class="separator:a7b32c6dc86edeff3f2a98e9a149156ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5be8d6d0a721c59bfda3d9897dcec43"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#aa5be8d6d0a721c59bfda3d9897dcec43">M10</a> = 1</td></tr>
+<tr class="separator:aa5be8d6d0a721c59bfda3d9897dcec43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c7ce69c077a5680eb40bba52dddeb36"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a2c7ce69c077a5680eb40bba52dddeb36">M11</a> = 5</td></tr>
+<tr class="separator:a2c7ce69c077a5680eb40bba52dddeb36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a270102440554de0c65fe26f2799b8dbc"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a270102440554de0c65fe26f2799b8dbc">M12</a> = 9</td></tr>
+<tr class="separator:a270102440554de0c65fe26f2799b8dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5682c63118054a9cb6b1be0b6e35f9c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#af5682c63118054a9cb6b1be0b6e35f9c">M13</a> = 13</td></tr>
+<tr class="separator:af5682c63118054a9cb6b1be0b6e35f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d48cac6d10bf93d8f942a7e2a4a1ab"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#af2d48cac6d10bf93d8f942a7e2a4a1ab">M20</a> = 2</td></tr>
+<tr class="separator:af2d48cac6d10bf93d8f942a7e2a4a1ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b042aa24a32c6082c467f4c25922953"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a2b042aa24a32c6082c467f4c25922953">M21</a> = 6</td></tr>
+<tr class="separator:a2b042aa24a32c6082c467f4c25922953"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ff30a44b3058faf3ee6896824643a95"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a0ff30a44b3058faf3ee6896824643a95">M22</a> = 10</td></tr>
+<tr class="separator:a0ff30a44b3058faf3ee6896824643a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaf79638c4b267c8b55a22d54df11046"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#aeaf79638c4b267c8b55a22d54df11046">M23</a> = 14</td></tr>
+<tr class="separator:aeaf79638c4b267c8b55a22d54df11046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23de345857760171cae03a9ce4ca2d44"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a23de345857760171cae03a9ce4ca2d44">M30</a> = 3</td></tr>
+<tr class="separator:a23de345857760171cae03a9ce4ca2d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab98375c6883927b1e148c9694c3e6fbd"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#ab98375c6883927b1e148c9694c3e6fbd">M31</a> = 7</td></tr>
+<tr class="separator:ab98375c6883927b1e148c9694c3e6fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7869d3ae33dce3198c563a417a2983c0"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a7869d3ae33dce3198c563a417a2983c0">M32</a> = 11</td></tr>
+<tr class="separator:a7869d3ae33dce3198c563a417a2983c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86a47f0dc5fef8d73ad10a627a3b00b6"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1math_1_1YMatrix.html#a86a47f0dc5fef8d73ad10a627a3b00b6">M33</a> = 15</td></tr>
+<tr class="separator:a86a47f0dc5fef8d73ad10a627a3b00b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p><b>4阶矩阵</b></p>
+<p><b>概述</b>： TODO</p>
+<p><b>建议</b>： TODO</p>
+<p><b>详细</b>： TODO</p>
+<p><b>注</b>： TODO</p>
+<p><b>例</b>： TODO</p>
+<dl class="section author"><dt>作者</dt><dd>yunzhong </dd></dl>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a4a3971d31451f03f6f1a4c3c54b7ef5e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ygame.math.YMatrix.YMatrix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>建立一个4阶幺阵 </p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a1883084c769a7bc01917cca6349a7319"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ygame.math.YMatrix.frustum </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>bottom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>near</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>far</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Define a projection matrix in terms of six clip planes </p>
+
+</div>
+</div>
+<a class="anchor" id="a9d6b65a7c74dbac4fc5316cf4080a90a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> ygame.math.YMatrix.identity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets matrix f_arrData to the identity matrix.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sm</td><td>returns the result </td></tr>
+    <tr><td class="paramname">smOffset</td><td>index into sm where the result matrix starts </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aaa36a2d3c3eb6d680878aee1c4da8ba1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> ygame.math.YMatrix.invert </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>原地逆矩阵4*4</p>
+<dl class="section return"><dt>返回</dt><dd>逆矩阵 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5ce91163e41aa0260689278302a8afb1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean ygame.math.YMatrix.invertM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrixRes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>逆矩阵4*4 </p>
+
+</div>
+</div>
+<a class="anchor" id="adc20ced3d6f94fbe2f6cb84b2cdc498f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float ygame.math.YMatrix.length </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Computes the length of a vector</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>x coordinate of a vector </td></tr>
+    <tr><td class="paramname">y</td><td>y coordinate of a vector </td></tr>
+    <tr><td class="paramname">z</td><td>z coordinate of a vector </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the length of a vector </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5a951c040aca180091aceb9b018046ce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ygame.math.YMatrix.multiplyMM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrixRes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrixLeft</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrixRight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad81aa6891e06a2564c695c06c04300eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ygame.math.YMatrix.ortho </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>bottom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>near</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>far</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes an orthographic projection matrix. </p>
+
+</div>
+</div>
+<a class="anchor" id="abd2dbd570cf8cc1a3e06f5cd2729ebdd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> ygame.math.YMatrix.perspective </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fovy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>aspect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>zNear</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>zFar</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Define a projection matrix in terms of a field of view angle, an aspect ratio, and z clip planes</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f_arrData</td><td>the float array that holds the perspective matrix </td></tr>
+    <tr><td class="paramname">offset</td><td>the offset into float array f_arrData where the perspective matrix data is written </td></tr>
+    <tr><td class="paramname">fovy</td><td>field of view in y direction, in degrees </td></tr>
+    <tr><td class="paramname">aspect</td><td>width to height aspect ratio of the viewport </td></tr>
+    <tr><td class="paramname">zNear</td><td></td></tr>
+    <tr><td class="paramname">zFar</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad99a704f5f1a9bb6f996902caa3c55e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> ygame.math.YMatrix.rotate </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Rotates matrix f_arrData in place by angle a (in degrees) around the axis (x, y, z)</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f_arrData</td><td>source matrix </td></tr>
+    <tr><td class="paramname">mOffset</td><td>index into f_arrData where the matrix starts </td></tr>
+    <tr><td class="paramname">a</td><td>angle to rotate in degrees </td></tr>
+    <tr><td class="paramname">x</td><td>scale factor x </td></tr>
+    <tr><td class="paramname">y</td><td>scale factor y </td></tr>
+    <tr><td class="paramname">z</td><td>scale factor z </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7720bc101b5189b2dae393a614d4cf4d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ygame.math.YMatrix.rotateM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrixRes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Rotates matrix f_arrData by angle a (in degrees) around the axis (x, y, z)</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rm</td><td>returns the result </td></tr>
+    <tr><td class="paramname">rmOffset</td><td>index into rm where the result matrix starts </td></tr>
+    <tr><td class="paramname">f_arrData</td><td>source matrix </td></tr>
+    <tr><td class="paramname">mOffset</td><td>index into f_arrData where the source matrix starts </td></tr>
+    <tr><td class="paramname">a</td><td>angle to rotate in degrees </td></tr>
+    <tr><td class="paramname">x</td><td>scale factor x </td></tr>
+    <tr><td class="paramname">y</td><td>scale factor y </td></tr>
+    <tr><td class="paramname">z</td><td>scale factor z </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a21e7783e371ae0908d50da2edc3a1b81"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ygame.math.YMatrix.scale </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Scales matrix f_arrData in place by sx, sy, and sz</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f_arrData</td><td>matrix to scale </td></tr>
+    <tr><td class="paramname">mOffset</td><td>index into f_arrData where the matrix starts </td></tr>
+    <tr><td class="paramname">x</td><td>scale factor x </td></tr>
+    <tr><td class="paramname">y</td><td>scale factor y </td></tr>
+    <tr><td class="paramname">z</td><td>scale factor z </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8907613c90d146fd498f9950d383749f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ygame.math.YMatrix.scaleM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrixRes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Scales matrix f_arrData by x, y, and z, putting the result in sm</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sm</td><td>returns the result </td></tr>
+    <tr><td class="paramname">smOffset</td><td>index into sm where the result matrix starts </td></tr>
+    <tr><td class="paramname">f_arrData</td><td>source matrix </td></tr>
+    <tr><td class="paramname">mOffset</td><td>index into f_arrData where the source matrix starts </td></tr>
+    <tr><td class="paramname">x</td><td>scale factor x </td></tr>
+    <tr><td class="paramname">y</td><td>scale factor y </td></tr>
+    <tr><td class="paramname">z</td><td>scale factor z </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="adf76b998f5d3079deb6b4990804cae70"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ygame.math.YMatrix.setAll </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a48698d6ed93eabc3c225865ee170fae7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ygame.math.YMatrix.setData </td>
+          <td>(</td>
+          <td class="paramtype">float[]&#160;</td>
+          <td class="paramname"><em>f_arrData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad2df24fdfb123c3b77e9a740e8fe091f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> ygame.math.YMatrix.setLookAtM </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>eyeX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>eyeY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>eyeZ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>targetX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>targetY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>targetZ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>upX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>upY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>upZ</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Define a viewing transformation in terms of an eye point, a center of view, and an up vector.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rm</td><td>returns the result </td></tr>
+    <tr><td class="paramname">rmOffset</td><td>index into rm where the result matrix starts </td></tr>
+    <tr><td class="paramname">eyeX</td><td>eye point X </td></tr>
+    <tr><td class="paramname">eyeY</td><td>eye point Y </td></tr>
+    <tr><td class="paramname">eyeZ</td><td>eye point Z </td></tr>
+    <tr><td class="paramname">targetX</td><td>center of view X </td></tr>
+    <tr><td class="paramname">targetY</td><td>center of view Y </td></tr>
+    <tr><td class="paramname">targetZ</td><td>center of view Z </td></tr>
+    <tr><td class="paramname">upX</td><td>up vector X </td></tr>
+    <tr><td class="paramname">upY</td><td>up vector Y </td></tr>
+    <tr><td class="paramname">upZ</td><td>up vector Z </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="acea7c4b1adf8fb41fd0fd4f3e632d151"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ygame.math.YMatrix.setRotateEulerM </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts Euler angles to a rotation matrix</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rm</td><td>returns the result </td></tr>
+    <tr><td class="paramname">rmOffset</td><td>index into rm where the result matrix starts </td></tr>
+    <tr><td class="paramname">x</td><td>angle of rotation, in degrees </td></tr>
+    <tr><td class="paramname">y</td><td>angle of rotation, in degrees </td></tr>
+    <tr><td class="paramname">z</td><td>angle of rotation, in degrees </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8bfb9e1f78b375592be4ece1858b97b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ygame.math.YMatrix.setRotateM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrixRes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Rotates matrix f_arrData by angle a (in degrees) around the axis (x, y, z)</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rm</td><td>returns the result </td></tr>
+    <tr><td class="paramname">rmOffset</td><td>index into rm where the result matrix starts </td></tr>
+    <tr><td class="paramname">a</td><td>angle to rotate in degrees </td></tr>
+    <tr><td class="paramname">x</td><td>scale factor x </td></tr>
+    <tr><td class="paramname">y</td><td>scale factor y </td></tr>
+    <tr><td class="paramname">z</td><td>scale factor z </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a72c8b704a275c311fa72b371110a0a4f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float [] ygame.math.YMatrix.toFloatValues </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a15211c2b99380669cf381a4ace568647"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String ygame.math.YMatrix.toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a78980d4f402233a08ea7fbfb7ca519fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> ygame.math.YMatrix.translate </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Translates matrix f_arrData by x, y, and z in place.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f_arrData</td><td>matrix </td></tr>
+    <tr><td class="paramname">mOffset</td><td>index into f_arrData where the matrix starts </td></tr>
+    <tr><td class="paramname">x</td><td>translation factor x </td></tr>
+    <tr><td class="paramname">y</td><td>translation factor y </td></tr>
+    <tr><td class="paramname">z</td><td>translation factor z </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5852a31870ddaab8adeed2723948db1c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ygame.math.YMatrix.translateM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrixRes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Translates matrix f_arrData by x, y, and z, putting the result in tm</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tm</td><td>returns the result </td></tr>
+    <tr><td class="paramname">tmOffset</td><td>index into sm where the result matrix starts </td></tr>
+    <tr><td class="paramname">f_arrData</td><td>source matrix </td></tr>
+    <tr><td class="paramname">mOffset</td><td>index into f_arrData where the source matrix starts </td></tr>
+    <tr><td class="paramname">x</td><td>translation factor x </td></tr>
+    <tr><td class="paramname">y</td><td>translation factor y </td></tr>
+    <tr><td class="paramname">z</td><td>translation factor z </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa573d4ffc5f15f50412cb27ed125dd1a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> ygame.math.YMatrix.transpose </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="accfa36d8667b54eebef084dfb7e40e09"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ygame.math.YMatrix.transposeM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrixRes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>转置矩阵4*4 </p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a052a741479d13d96a3eb7a0e641f3aeb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M00 = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a93171f787957703f5b1435f1bf7821bc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M01 = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab8d66dead6b4b1eae620e20a16ecc708"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M02 = 8</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7b32c6dc86edeff3f2a98e9a149156ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M03 = 12</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa5be8d6d0a721c59bfda3d9897dcec43"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M10 = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2c7ce69c077a5680eb40bba52dddeb36"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M11 = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a270102440554de0c65fe26f2799b8dbc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M12 = 9</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af5682c63118054a9cb6b1be0b6e35f9c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M13 = 13</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af2d48cac6d10bf93d8f942a7e2a4a1ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M20 = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2b042aa24a32c6082c467f4c25922953"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M21 = 6</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0ff30a44b3058faf3ee6896824643a95"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M22 = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aeaf79638c4b267c8b55a22d54df11046"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M23 = 14</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a23de345857760171cae03a9ce4ca2d44"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M30 = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab98375c6883927b1e148c9694c3e6fbd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M31 = 7</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7869d3ae33dce3198c563a417a2983c0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M32 = 11</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a86a47f0dc5fef8d73ad10a627a3b00b6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int ygame.math.YMatrix.M33 = 15</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>YGameFrame/src/ygame/math/<a class="el" href="YMatrix_8java.html">YMatrix.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2014年 十一月 11日 星期二 22:24:00 , 为 YGameFrame使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>

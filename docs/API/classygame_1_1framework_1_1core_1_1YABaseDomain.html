@@ -1,0 +1,515 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>YGameFrame: ygame.framework.core.YABaseDomain类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">YGameFrame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>包</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceygame.html">ygame</a></li><li class="navelem"><a class="el" href="namespaceygame_1_1framework.html">framework</a></li><li class="navelem"><a class="el" href="namespaceygame_1_1framework_1_1core.html">core</a></li><li class="navelem"><a class="el" href="classygame_1_1framework_1_1core_1_1YABaseDomain.html">YABaseDomain</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="classygame_1_1framework_1_1core_1_1YABaseDomain-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">ygame.framework.core.YABaseDomain类 参考<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 ygame.framework.core.YABaseDomain 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classygame_1_1framework_1_1core_1_1YABaseDomain.png" usemap="#ygame.framework.core.YABaseDomain_map" alt=""/>
+  <map id="ygame.framework.core.YABaseDomain_map" name="ygame.framework.core.YABaseDomain_map">
+<area href="classygame_1_1framework_1_1core_1_1YClusterDomain.html" alt="ygame.framework.core.YClusterDomain" shape="rect" coords="0,112,293,136"/>
+<area href="classygame_1_1framework_1_1domain_1_1YBaseDomain.html" alt="ygame.framework.domain.YBaseDomain" shape="rect" coords="303,112,596,136"/>
+<area href="classygame_1_1extension_1_1domain_1_1tilemap_1_1YTileMapDomain.html" alt="ygame.extension.domain.tilemap.YTileMapDomain" shape="rect" coords="0,168,293,192"/>
+<area href="classygame_1_1domain_1_1YDomain.html" alt="ygame.domain.YDomain" shape="rect" coords="303,168,596,192"/>
+<area href="classygame_1_1framebuffer_1_1YFBODomain.html" alt="ygame.framebuffer.YFBODomain" shape="rect" coords="303,224,596,248"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a762f80767549483dd6798456def481a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1framework_1_1core_1_1YABaseDomain.html#a762f80767549483dd6798456def481a3">YABaseDomain</a> (String <a class="el" href="classygame_1_1framework_1_1core_1_1YABaseDomain.html#abc56c06b24f2d9a417a93d4c0787353e">KEY</a>)</td></tr>
+<tr class="separator:a762f80767549483dd6798456def481a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4799de1707020a401980992c034c438"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1framework_1_1core_1_1YABaseDomain.html#ab4799de1707020a401980992c034c438">sendRequest</a> (<a class="el" href="classygame_1_1framework_1_1core_1_1YRequest.html">YRequest</a> request)</td></tr>
+<tr class="separator:ab4799de1707020a401980992c034c438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:abc56c06b24f2d9a417a93d4c0787353e"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1framework_1_1core_1_1YABaseDomain.html#abc56c06b24f2d9a417a93d4c0787353e">KEY</a></td></tr>
+<tr class="separator:abc56c06b24f2d9a417a93d4c0787353e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:ad9f94a421c15faa6e158e78b10c3dcb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1framework_1_1core_1_1YABaseDomain.html#ad9f94a421c15faa6e158e78b10c3dcb9">onAttach</a> (<a class="el" href="classygame_1_1framework_1_1core_1_1YSystem.html">YSystem</a> system)</td></tr>
+<tr class="separator:ad9f94a421c15faa6e158e78b10c3dcb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ae8545057239b8d8e3d6730bc61aa61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1framework_1_1core_1_1YABaseDomain.html#a6ae8545057239b8d8e3d6730bc61aa61">onEnterScene</a> (<a class="el" href="classygame_1_1framework_1_1core_1_1YScene.html">YScene</a> scene)</td></tr>
+<tr class="separator:a6ae8545057239b8d8e3d6730bc61aa61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade5ed6114700668655c204b8240b4e8e"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1framework_1_1core_1_1YABaseDomain.html#ade5ed6114700668655c204b8240b4e8e">onPreframe</a> ()</td></tr>
+<tr class="separator:ade5ed6114700668655c204b8240b4e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a594b61d1ecc6528e11c5ad8e112e349e"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1framework_1_1core_1_1YABaseDomain.html#a594b61d1ecc6528e11c5ad8e112e349e">onDraw</a> (<a class="el" href="classygame_1_1framework_1_1core_1_1YSystem.html">YSystem</a> system)</td></tr>
+<tr class="separator:a594b61d1ecc6528e11c5ad8e112e349e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad75f0c67e8eb7c9907cb48bb8a4c7f96"><td class="memItemLeft" align="right" valign="top">abstract boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1framework_1_1core_1_1YABaseDomain.html#ad75f0c67e8eb7c9907cb48bb8a4c7f96">onReceiveRequest</a> (<a class="el" href="classygame_1_1framework_1_1core_1_1YRequest.html">YRequest</a> request, <a class="el" href="classygame_1_1framework_1_1core_1_1YSystem.html">YSystem</a> system, <a class="el" href="classygame_1_1framework_1_1core_1_1YScene.html">YScene</a> sceneCurrent)</td></tr>
+<tr class="separator:ad75f0c67e8eb7c9907cb48bb8a4c7f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac56b0a44d9a9fd30df6a4d3342e97bfb"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1framework_1_1core_1_1YABaseDomain.html#ac56b0a44d9a9fd30df6a4d3342e97bfb">onClockCycle</a> (double dbElapseTime_s, <a class="el" href="classygame_1_1framework_1_1core_1_1YSystem.html">YSystem</a> system, <a class="el" href="classygame_1_1framework_1_1core_1_1YScene.html">YScene</a> sceneCurrent, <a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrix4PV, <a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrix4Projection, <a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a> matrix4View)</td></tr>
+<tr class="separator:ac56b0a44d9a9fd30df6a4d3342e97bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3685050e088e34f79846d21ee75487d"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classygame_1_1framework_1_1core_1_1YABaseDomain.html#ac3685050e088e34f79846d21ee75487d">onGL_Initialize</a> (<a class="el" href="classygame_1_1framework_1_1core_1_1YSystem.html">YSystem</a> system, <a class="el" href="classygame_1_1framework_1_1core_1_1YGL__Configuration.html">YGL_Configuration</a> configurationGL, int iWidth, int iHeight)</td></tr>
+<tr class="separator:ac3685050e088e34f79846d21ee75487d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p><b>抽象基础实体</b></p>
+<p><b>概述</b>： 提供给系统关于实体的调用界面</p>
+<p><b>建议</b>： TODO</p>
+<p><b>详细</b>： TODO</p>
+<p><b>注</b>： TODO</p>
+<p><b>例</b>： TODO</p>
+<dl class="section author"><dt>作者</dt><dd>yunzhong </dd></dl>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a762f80767549483dd6798456def481a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ygame.framework.core.YABaseDomain.YABaseDomain </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>KEY</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">KEY</td><td>参阅<a class="el" href="classygame_1_1framework_1_1core_1_1YABaseDomain.html#abc56c06b24f2d9a417a93d4c0787353e">KEY</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="ad9f94a421c15faa6e158e78b10c3dcb9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ygame.framework.core.YABaseDomain.onAttach </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classygame_1_1framework_1_1core_1_1YSystem.html">YSystem</a>&#160;</td>
+          <td class="paramname"><em>system</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>当实体被关联到系统时该函数被回调</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">system</td><td>系统 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac56b0a44d9a9fd30df6a4d3342e97bfb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void ygame.framework.core.YABaseDomain.onClockCycle </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dbElapseTime_s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1framework_1_1core_1_1YSystem.html">YSystem</a>&#160;</td>
+          <td class="paramname"><em>system</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1framework_1_1core_1_1YScene.html">YScene</a>&#160;</td>
+          <td class="paramname"><em>sceneCurrent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrix4PV</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrix4Projection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1math_1_1YMatrix.html">YMatrix</a>&#160;</td>
+          <td class="paramname"><em>matrix4View</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dbElapseTime_s</td><td>两周期之间间隔时间，秒为单位 </td></tr>
+    <tr><td class="paramname">system</td><td>系统 </td></tr>
+    <tr><td class="paramname">sceneCurrent</td><td>当前场景 </td></tr>
+    <tr><td class="paramname">matrix4PV</td><td>“投影-视图矩阵” </td></tr>
+    <tr><td class="paramname">matrix4Projection</td><td>“投影矩阵” </td></tr>
+    <tr><td class="paramname">matrix4View</td><td>“视图矩阵” </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a594b61d1ecc6528e11c5ad8e112e349e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void ygame.framework.core.YABaseDomain.onDraw </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classygame_1_1framework_1_1core_1_1YSystem.html">YSystem</a>&#160;</td>
+          <td class="paramname"><em>system</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>绘图时回调此函数</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">system</td><td>系统 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a6ae8545057239b8d8e3d6730bc61aa61"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ygame.framework.core.YABaseDomain.onEnterScene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classygame_1_1framework_1_1core_1_1YScene.html">YScene</a>&#160;</td>
+          <td class="paramname"><em>scene</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>当实体被添入相应场景时该函数被回调</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scene</td><td>实体被添入的的场景 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac3685050e088e34f79846d21ee75487d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void ygame.framework.core.YABaseDomain.onGL_Initialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classygame_1_1framework_1_1core_1_1YSystem.html">YSystem</a>&#160;</td>
+          <td class="paramname"><em>system</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1framework_1_1core_1_1YGL__Configuration.html">YGL_Configuration</a>&#160;</td>
+          <td class="paramname"><em>configurationGL</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iWidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iHeight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>在渲染线程中被初始化时回调该函数，您可以在此进行相应的开放图库（OpenGL）操作</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">system</td><td>引擎系统 </td></tr>
+    <tr><td class="paramname">configurationGL</td><td>开放图库（OpenGL）配置信息 </td></tr>
+    <tr><td class="paramname">iWidth</td><td><b>渲染视图</b><a class="el" href="classygame_1_1framework_1_1core_1_1YView.html">YView</a> 的宽度，像素为单位 </td></tr>
+    <tr><td class="paramname">iHeight</td><td><b>渲染视图</b><a class="el" href="classygame_1_1framework_1_1core_1_1YView.html">YView</a> 的高度，像素为单位 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ade5ed6114700668655c204b8240b4e8e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void ygame.framework.core.YABaseDomain.onPreframe </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>每帧开始绘制前回调此函数，即在此时只有逻辑线程运行，绘图线程完成任务处于等待状态， 在此之后逻辑线程与绘图线程开始并发运行 ，为了保证线程安全，它们之间不可再有任何交互！您可以通过复写该方法，在逻辑线程与 绘图线程“分道扬镳”之前做一些设置。 </p>
+
+</div>
+</div>
+<a class="anchor" id="ad75f0c67e8eb7c9907cb48bb8a4c7f96"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract boolean ygame.framework.core.YABaseDomain.onReceiveRequest </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classygame_1_1framework_1_1core_1_1YRequest.html">YRequest</a>&#160;</td>
+          <td class="paramname"><em>request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1framework_1_1core_1_1YSystem.html">YSystem</a>&#160;</td>
+          <td class="paramname"><em>system</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classygame_1_1framework_1_1core_1_1YScene.html">YScene</a>&#160;</td>
+          <td class="paramname"><em>sceneCurrent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>当实体接受到该请求时，该函数被回调</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">request</td><td>请求 </td></tr>
+    <tr><td class="paramname">system</td><td>系统 </td></tr>
+    <tr><td class="paramname">sceneCurrent</td><td>实体当前所处的场景 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>真为处理了该请求，反之忽略该请求 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab4799de1707020a401980992c034c438"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void ygame.framework.core.YABaseDomain.sendRequest </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classygame_1_1framework_1_1core_1_1YRequest.html">YRequest</a>&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>向实体对象发送请求</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">request</td><td>发送的请求 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="abc56c06b24f2d9a417a93d4c0787353e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String ygame.framework.core.YABaseDomain.KEY</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p><b>实体标识</b> </p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>YGameFrame/src/ygame/framework/core/<a class="el" href="YABaseDomain_8java.html">YABaseDomain.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2014年 十一月 11日 星期二 22:23:58 , 为 YGameFrame使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>
